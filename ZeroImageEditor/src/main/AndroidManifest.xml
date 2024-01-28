@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application>
+
+        <activity android:name=".ui.enhancer.EnhancerResultActivity"
+            android:enabled="true"
+            android:exported="true"
+            android:theme="@style/Theme.ZeroImageEditor"
+            />
+
+        <activity android:name=".ui.enhancer.EnhancerActivity"
+            android:enabled="true"
+            android:exported="true"
+            android:theme="@style/Theme.ZeroImageEditor"/>
+
+        <activity android:name=".ui.removebackground.RemoveBackgroundActivity"
+            android:enabled="true"
+            android:exported="true"
+            android:theme="@style/Theme.ZeroImageEditor"/>
+
+        <activity android:name=".ui.removebackground.RemoveBackgroundResultActivity"
+            android:enabled="true"
+            android:exported="true"
+            android:theme="@style/Theme.ZeroImageEditor"/>
+    </application>
+</manifest>

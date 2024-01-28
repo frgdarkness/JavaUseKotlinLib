@@ -1,0 +1,31 @@
+package com.zeroapp.bloodpresshelp.zeroimageeditor.data.remote.model
+
+@kotlinx.serialization.Serializable
+data class GenerateImageToSDImageDataInput(
+    var prompt: String,
+    val modelId: String = "",
+    var negativePrompt: String = "",
+    val width: Int = 512,
+    val height: Int = 512,
+    val samples: Int = 1,
+    var numInferenceSteps: Int = 21,
+    val safetyChecker: Boolean = false,
+    val enhancePrompt: Boolean = true,
+    var seed: String = "",
+    var guidanceScale: Float = 4.5f,
+    val multiLingual: Boolean = false,
+    val panorama: Boolean = false,
+    val selfAttention: Boolean = false,
+    val upscale: Boolean = false,
+    val embeddingsModel: String = "",
+    val webHook: String = "",
+    val trackId: Long? = null,
+    val loraModel: String = "detailtweakerlora",
+    val loraStrength: Float = 0.5f,
+    val scheduler: String = "",
+    var controlNetModel: String = "",
+    var controlNetType: String = "",
+    var initImage: String = "",
+    val controlNetScale: Float = 0.5f,
+    val strength: Float = 0.55f,
+)

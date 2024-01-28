@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "589342852682",
+    "project_id": "zeroimageeditor",
+    "storage_bucket": "zeroimageeditor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589342852682:android:f9ea03049bebc62b0308b3",
+        "android_client_info": {
+          "package_name": "com.zeroapp.bloodpresshelp.zeroimageeditor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-D8gNhntE_0_l_VbQDrFAxh19mY-3IiY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
